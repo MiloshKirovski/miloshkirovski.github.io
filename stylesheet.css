@@ -1,0 +1,261 @@
+.body1{
+    color: white;
+    font-family: Calibri;
+    margin: auto;
+    width: 1520px;
+    height: 680px;
+    padding-top: 20px;
+    background: url("images/back.png");
+    background-size: 100%;
+}
+a{
+    color: white;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+.body1 a:hover{
+    border: 3px solid white;
+    color: white;
+}
+table td{
+    padding: 6px 10px;
+    display: inline-block;
+    margin: 18px 18px;
+}
+table td a{
+    border-bottom: 3px solid white;
+}
+table{
+    margin-left: 440px;
+    width: 50%;
+}
+nav{
+    margin-bottom: 30px;
+}
+#div1{
+    background: rgba(30%, 20%, 50%, 70%);
+    border: 2px solid black;
+    margin: auto;
+    width: 500px;
+}#div1 p{
+     text-align: center;
+     width: 300px;
+     margin: auto;
+     margin-bottom: 20px;
+ }
+#div1 h4{
+    margin-left: 190px;
+    margin-top: 0;
+}
+#div1 p:last-of-type{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#div1 img{
+    margin-left: 140px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+#div1 h2{
+    margin-left: 100px;
+    margin-bottom: 0;
+}
+#about{
+    display: flex;
+    justify-content: center;
+}
+#about div{
+    width: 300px;
+}
+#about #d1{
+    background: url("images/vibrant.jpg") no-repeat;
+    background-size: 300px 230px;
+    background-position: top center;
+    padding-top: 230px;
+    text-align: center;
+    margin-top: 20px;
+}
+#about #d1 p{
+    background: rgba(30%, 20%, 50%, 50%);
+    color: white;
+    padding: 8px 8px;
+    margin-left: -5px;
+    width: 300px;
+}
+#about #d2{
+    height: 515px;
+    margin-left: 75px;
+    margin-right: 75px;
+    background: url("images/walk.png") no-repeat;
+    background-size: 300px 230px;
+    background-position: bottom center;
+
+}
+#about #d2 p{
+    background: rgba(30%, 20%, 50%, 50%);
+    color: white;
+    width: 300px;
+    padding: 8px 8px;
+    margin-left: -10px;
+    text-align: center;
+}
+#about #d3{
+    background: url("images/vibrant2.jpg") no-repeat;
+    background-size: 330px 230px;
+    background-position: top center;
+    padding-top: 230px;
+    text-align: center;
+    margin-top: 20px;
+}
+#about #d3 p{
+    background: rgba(30%, 20%, 50%, 50%);
+    color: white;
+    padding: 8px 8px;
+    margin-left: -5px;
+}
+#anime{
+    width: 80%;
+    margin: auto;
+}
+#anime img{
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    margin-top: -25px;
+}
+#games{
+    width: 80%;
+    margin: auto;
+    clear: both;
+    margin-top: 70px;
+}
+#games img{
+    position: relative;
+    float: right;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+#goingout{
+    width: 80%;
+    margin: auto;
+    clear: both;
+    margin-top: 70px;
+}
+#goingout img{
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    margin-top: -25px;
+}
+#games p{
+    margin-right: 200px;
+}
+#goingout p, #anime p{
+    margin-left: 200px;
+}
+#games p, #goingout p, #anime p{
+    background: rgba(30%, 20%, 50%, 50%);
+    color: white;
+    padding: 3px 8px;
+}
+#games img, #goingout img, #anime img{
+    border: white 3px solid;
+}
+#skills p{
+    width: 300px;
+    text-align: center;
+    background: rgba(30%, 20%, 50%, 50%);
+    color: white;
+    padding: 3px 8px;
+}
+#skills #flex1{
+    display: flex;
+    justify-content: space-evenly;
+}
+#skills #flex2{
+    display: flex;
+    justify-content: space-evenly;
+}
+#flex1 > div:nth-child(1){
+    background: url("images/bookicon.jpg") no-repeat;
+    background-position: center top;
+    background-size: 100px 100px;
+    padding-top: 110px;
+}
+#flex1 > div:nth-child(2){
+    background: url("images/socialicon.jpg") no-repeat;
+    background-position: center top;
+    background-size: 100px 100px;
+    padding-top: 110px;
+}
+#flex1 > div:nth-child(3){
+    background: url("images/mediaicon.jpg") no-repeat;
+    background-position: center top;
+    background-size: 100px 100px;
+    padding-top: 110px;
+}
+#flex2 > div:nth-child(1){
+    background: url("images/cookingicon.jpg") no-repeat;
+    background-position: center top;
+    background-size: 100px 100px;
+    padding-top: 110px;
+}
+#flex2 > div:nth-child(2){
+    background: url("images/artisticon.jpg") no-repeat;
+    background-position: center top;
+    background-size: 100px 100px;
+    padding-top: 110px;
+}
+#flex2 > div:nth-child(3){
+    background: url("images/developmenticon.jpg") no-repeat;
+    background-position: center top;
+    background-size: 100px 100px;
+    padding-top: 110px;
+}
+#contact{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+    text-align: center;
+}
+#contact div{
+    width: 360px;
+}
+#contact div:nth-of-type(2){
+    background: url("images/linkedin.jpg") no-repeat;
+    background-size: 150px 150px;
+    padding-top: 160px;
+    background-position: center top;
+}
+#contact div:nth-of-type(1){
+    background: url("images/instagram.png") no-repeat;
+    background-size: 150px 150px;
+    padding-top: 160px;
+    background-position: center top;
+}
+#contact div:nth-of-type(3){
+    background: url("images/email.jpg") no-repeat;
+    background-size: 150px 150px;
+    padding-top: 160px;
+    background-position: center top;
+}
+#contact a{
+    text-decoration: none;
+}
+#contact p{
+    margin-left: 30px;
+    background: rgba(30%, 20%, 50%, 50%);
+    border: white solid 1px;
+    width: 300px;
+    color: white;
+    padding: 3px 8px;
+    height: 65px;
+}
+#conid{
+    display: inline-block;
+    border: 3px solid white;
+    padding: 5px 10px;
+    margin-top: 30px;
+    margin-left: 660px;
+}
