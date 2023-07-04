@@ -13,14 +13,14 @@ a{
     padding: 6px 10px;
     text-decoration: none;
 }
-.body1 a:hover{
-    border: 3px solid white;
-    color: white;
-}
 table td{
     padding: 6px 10px;
     display: inline-block;
     margin: 18px 18px;
+}
+.body1 a:hover{
+    border: 3px solid white;
+    color: white;
 }
 table td a{
     border-bottom: 3px solid white;
